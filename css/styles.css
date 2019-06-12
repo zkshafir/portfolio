@@ -5,6 +5,24 @@
 }
 */
 
+
+/*
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+*/
+
+.foot {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer
+   background:#6cf;
+}
+
+*/
 @font-face {
   font-family: montserrat;
   src: url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -316,6 +334,7 @@ font-family: "Montserrat";
         text-align: center;
     }
      }
+
 
 
 
