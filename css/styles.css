@@ -237,9 +237,11 @@ font-family: "Montserrat";
 .row{
     display: flex;
     margin:30px;
-
 }
 
+.portfolioImages {
+ justify-content: center;
+}
 
 a:
 {
