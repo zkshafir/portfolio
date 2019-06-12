@@ -21,23 +21,7 @@
   src: url('https://fonts.googleapis.com/css?family=Montserrat');
 }
 
-/*
-input[type=text] {
-  width: 130px;
-  border: 2px solid #FFB4AA;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
-}
-*/
 
-/*
-input[type=text]:focus {
-  width: 100%;
-}
-*/
 
 
 .button {
@@ -197,29 +181,8 @@ section {
 }
 
 
-/*
-    input {
-        display: block;
-        margin-bottom: 3em;
-        margin-top: 1em;
-        width: 100%;
-        border: solid #FFB4AA;
-        padding: 1em;
 
-    }
-*/
 
-/*
-    textarea {
-        display: block;
-        margin-bottom: 3em;
-        margin-top: 1em;
-        width: 100%;
-        border: solid #FFB4AA;
-        padding: 1em;
-
-    }
-*/
 
 
 input[type="button"] {
@@ -256,7 +219,7 @@ font-family: "montserrat";
 
 h3 {
 font-family: "montserrat";
-    font-size: .8em;
+    font-size: 0.9em;
     color: #320083;
     line-height: 1.15em;
     margin: 20px 0;
@@ -274,9 +237,30 @@ font-family: "Montserrat";
 .row{
     display: flex;
     margin:30px;
+
 }
 
 
+a:
+{
+    color:#320083;
+}
+
+a:visited
+{
+    color:#D99700;
+
+}
+
+a:hover
+{
+    color: #D99700;
+}
+
+a:active
+{
+    color:#52A6C5;
+}
 /*MEDIA QUERY*/
 @media only screen and (max-width : 770px) {
 
@@ -327,6 +311,8 @@ font-family: "Montserrat";
         text-align: center;
     }
      }
+
+
 
 
 
