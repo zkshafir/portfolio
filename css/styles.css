@@ -16,12 +16,28 @@
 
 }
 
-@font-face {
-  font-family: montserrat;
-  src: url('https://fonts.googleapis.com/css?family=Montserrat');
+.frontpage {
+    justify-content:center;
 }
 
 
+@font-face {
+  font-family: montserrat;
+  src: url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+}
+
+@font-face {
+  font-family: roboto;
+  src: url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+}
+
+/*
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*/
 
 
 .button {
@@ -63,11 +79,13 @@
 
 .button:hover span {
   padding-right: 25px;
+
 }
 
 .button:hover span:after {
   opacity: 1;
   right: 0;
+
 }
 
 
@@ -81,7 +99,7 @@ body {
 
 a {
 
-    color: black;
+    color: #320083;
     text-decoration: none;
     font-weight: bold;
 
@@ -121,7 +139,7 @@ header {
     margin: 20px;
     float: left;
     width: 200px;
-    height: 40px;
+    height: 50px;
     background: url(../img/headerlogo.png) no-repeat center;
     display: block;
 
@@ -232,8 +250,10 @@ font-family: "Montserrat";
     color: #320083;
     line-height: 1.15em;
     margin: 20px 0;
-
+    width: 70%;
 }
+
+
 .row{
     display: flex;
     margin:30px;
@@ -262,7 +282,13 @@ a:active
 /*MEDIA QUERY*/
 @media only screen and (max-width : 770px) {
 
+    .row{
+        display: block
+    }
 
+    .foot {
+        display: block;
+    }
 
     #menu-icon {
 
