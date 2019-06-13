@@ -203,14 +203,14 @@ h1, h2, h3, h4{
 
 h1 {
     font-size: 2em;
-    color: 320083;
+    color: #320083;
     line-height: 1.15em;
     margin: 20px 0;
 
 }
 
 h2 {
-    font-size: 1,5em;
+    font-size: 1em;
     color: #320083;
     line-height: 1.15em;
     margin: 20px 0;
@@ -230,7 +230,7 @@ h3 {
 
 p {
     font-family: "montserrat";
-     font-size: 1,5em;
+     font-size: 1em;
     color: #320083;
     line-height: 1.15em;
     margin: 20px 0;
@@ -247,7 +247,7 @@ p {
  justify-content: center;
 }
 
-a:
+a
 {
     color:#320083;
 }
@@ -287,7 +287,7 @@ a:active
         position: absolute;
         padding: 20px;
         background: #fff;
-        border: 5px solid #320083;
+        border: 1px solid #320083;
         right: 20px;
         top: 60px;
         width: 50%;
