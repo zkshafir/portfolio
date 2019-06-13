@@ -17,27 +17,10 @@
 }
 
 .frontpage {
-    justify-content:center;
+justify-content: space-around;
+
 }
 
-
-@font-face {
-  font-family: montserrat;
-  src: url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-}
-
-@font-face {
-  font-family: roboto;
-  src: url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-}
-
-/*
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-*/
 
 
 .button {
@@ -92,7 +75,8 @@
 body {
     font-size: 1.05em;
     line-height: 1.25em;
-    font-family: "montserrat";
+/*    font-family: 'montserrat';*/
+    font-family: sans-serif;
     background: #fff;
     color: black;
 }
@@ -101,7 +85,7 @@ a {
 
     color: #320083;
     text-decoration: none;
-    font-weight: bold;
+/*    font-weight: bold;*/
 
 }
 
@@ -199,10 +183,6 @@ section {
 }
 
 
-
-
-
-
 input[type="button"] {
         margin-top: 2em;
         background-color: white;
@@ -215,8 +195,13 @@ input[type="button"] {
     }
 
 
+h1, h2, h3, h4{
+    font-family: 'montserrat', sans serif;
+    font-weight: bold;
+
+}
+
 h1 {
-font-family: "montserrat";
     font-size: 2em;
     color: 320083;
     line-height: 1.15em;
@@ -225,7 +210,6 @@ font-family: "montserrat";
 }
 
 h2 {
-font-family: "montserrat";
     font-size: 1,5em;
     color: #320083;
     line-height: 1.15em;
@@ -236,7 +220,7 @@ font-family: "montserrat";
 
 
 h3 {
-font-family: "montserrat";
+
     font-size: 0.9em;
     color: #320083;
     line-height: 1.15em;
@@ -245,7 +229,7 @@ font-family: "montserrat";
 }
 
 p {
-font-family: "Montserrat";
+    font-family: "montserrat";
      font-size: 1,5em;
     color: #320083;
     line-height: 1.15em;
