@@ -1,9 +1,4 @@
 
-hr.line {
-  border: 1px solid #320083;
-  border-radius: 5px;
-}
-
 body {
     font-size: 1.05em;
     line-height: 1.25em;
@@ -11,6 +6,20 @@ body {
     background: #fff;
 
 }
+
+section {
+
+    margin: 80px auto 40px;
+    max-width: 980px;
+    position: relative;
+    padding: 20px
+}
+
+hr.line {
+  border: 1px solid #320083;
+  border-radius: 5px;
+}
+
 
 li {
     font-family: 'montserrat', sans-serif;
@@ -90,14 +99,11 @@ transition: all 0.5s ease 0s;
 a {
     color: #320083;
     text-decoration: none;
-/*    font-weight: bold;*/
-
 }
 
 a:hover {
 
     color: #D99700;
-
 }
 
 .profile-image {
@@ -172,13 +178,7 @@ display: flex;
 }
 
 
-section {
 
-    margin: 80px auto 40px;
-    max-width: 980px;
-    position: relative;
-    padding: 20px
-}
 
 
 input[type="button"] {
@@ -187,7 +187,6 @@ input[type="button"] {
         color: black;
         font-size: 0.6em;
         padding: 1em;
-/*        margin: left;*/
 
 
     }
@@ -226,13 +225,13 @@ h3 {
 
 }
 
-p {
+p, li {
     font-family: "montserrat", sans-serif;
      font-size: 1em;
     color: #320083;
     line-height: 1.15em;
     margin: 20px 0;
-    width: 70%;
+    width: 100%;
 }
 
 
@@ -319,4 +318,9 @@ a:active
     justify-content: center;
 }
  }
+
+p, h1, h2, h3, h4, li {
+    max-width:  650px;
+
+}
 
