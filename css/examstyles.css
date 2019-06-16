@@ -39,7 +39,6 @@ li {
 }
 
 
-
 .frontpage {
 justify-content: space-around;
     text-align: center;
@@ -61,7 +60,7 @@ justify-content: space-around;
   font-size: 15px;
   padding: 20px;
   width: 200px;
-  transition: all 0.5s;
+  transition: all 0.2s;
   cursor: pointer;
   margin: 5px;
   display: flex;
@@ -70,43 +69,55 @@ justify-content: space-around;
 }
 
 
-.button1 {
+/*
+.button {
     display: flex;
-   text-align: center;
+   justify-content: center;
 }
+*/
 
+/*
 .button span {
   cursor: pointer;
   display: inline-block;
-  position: relative;
-  transition: 0.5s;
+  position: center;
+  transition: 0.2s;
+}
+*/
+
+.button:hover {
+  background-color: #D99700;
+  color:#fff;
 }
 
+
+/*
 .button span:after {
-/*  content: '\00bb';*/
+  content: '\00bb';
   position: absolute;
   opacity: 0;
   top: 0;
   right: -20px;
   transition: 0.5s;
 }
+*/
 
+/*
 .button:hover span {
   padding-right: 25px;
-
-
 }
+*/
 
-
+/*
 .button:hover span:after {
   opacity: 1;
   right: 0;
 
 }
+*/
 
 
 a {
-
     color: #320083;
     text-decoration: none;
 /*    font-weight: bold;*/
@@ -154,10 +165,8 @@ header {
 }
 
 nav {
-
     float: right;
     padding: 20px;
-
 }
 
 #menu-icon {
@@ -173,7 +182,6 @@ a:hover#menu-icon {
     border-radius: 10px 4px 0 0;
 }
 
-
 .wideMenu {
 display: flex;
     list-style: none;
@@ -181,7 +189,6 @@ display: flex;
 }
 
 .menulist {
-
     display: inline-block;
     float: left;
     padding: 15px
@@ -332,9 +339,7 @@ a:active
 
     }
 
-
-
-.button {
+.button1 {
     display:flex;
     justify-content: left;
 }
