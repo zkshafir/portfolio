@@ -7,14 +7,13 @@ hr.line {
 body {
     font-size: 1.05em;
     line-height: 1.25em;
-    font-family: 'montserrat';
-    font-family: sans-serif;
+    font-family: 'montserrat', sans-serif;
     background: #fff;
 
 }
 
 li {
-    font-family: 'montserrat';
+    font-family: 'montserrat', sans-serif;
     color: #320083;
      font-size: 1em;
     color: #320083;
@@ -53,8 +52,6 @@ justify-content: space-around;
 }
 
 
-
-
 .button {
   border-radius: 4px;
   background-color: #320083;
@@ -67,10 +64,11 @@ justify-content: space-around;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
- display: flex;
-   text-align: center;
-    margin-left: 38%;
+  display: flex;
+  text-align: center;
+  margin-left: 38%;
 }
+
 
 .button1 {
     display: flex;
@@ -105,8 +103,6 @@ justify-content: space-around;
   right: 0;
 
 }
-
-
 
 
 a {
@@ -165,21 +161,18 @@ nav {
 }
 
 #menu-icon {
-
 /*    display: hidden;*/
     width: 40px;
     height: 40px;
     background: #320083 url(../img/menu-icon.png) center;
-
-
 }
 
 a:hover#menu-icon {
 
     background-color: #320083;
     border-radius: 10px 4px 0 0;
-
 }
+
 
 .wideMenu {
 display: flex;
@@ -224,7 +217,7 @@ input[type="button"] {
 
 
 h1, h2, h3, h4{
-    font-family: 'montserrat', sans serif;
+    font-family: 'montserrat', sans-serif;
     font-weight: bold;
 
 }
@@ -257,7 +250,7 @@ h3 {
 }
 
 p {
-    font-family: "montserrat";
+    font-family: "montserrat", sans-serif;
      font-size: 1em;
     color: #320083;
     line-height: 1.15em;
@@ -339,11 +332,11 @@ a:active
 
     }
 
-     }
+
 
 .button {
     display:flex;
     justify-content: left;
 }
-
+ }
 
