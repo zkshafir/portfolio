@@ -5,14 +5,22 @@ body {
     font-family: 'montserrat', sans-serif;
     background: #fff;
 
+/*
 }
 
 section {
+*/
 
     margin: 80px auto 40px;
     max-width: 980px;
     position: relative;
     padding: 20px
+}
+
+.introHome {
+    display: flex;
+    justify-content: center;
+
 }
 
 hr.line {
@@ -26,8 +34,6 @@ li {
     color: #320083;
      font-size: 1em;
     color: #320083;
-
-
     width: 70%;
 }
 
@@ -37,15 +43,33 @@ li {
 }
 
 
+/*
 .foot {
     display: flex;
     justify-content: space-evenly;
-     position:absolute;
+     position:fixed;
    bottom:0;
-   width:100%;
+   width:65%;
    height:60px;
 
+
 }
+*/
+
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:60px;
+   width:100%;
+
+}
+
+
+
 
 
 .frontpage {
