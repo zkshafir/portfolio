@@ -1,20 +1,13 @@
-
 body {
     font-size: 1.05em;
     line-height: 1.25em;
     font-family: 'montserrat', sans-serif;
     background: #fff;
-
-/*
-}
-
-section {
-*/
-
     margin: 80px auto 40px;
     max-width: 980px;
     position: relative;
-    padding: 20px
+    padding: 35px
+
 }
 
 .introHome {
@@ -24,100 +17,85 @@ section {
 }
 
 hr.line {
-  border: 1px solid #320083;
-  border-radius: 5px;
+    border: 1px solid #320083;
+    border-radius: 5px;
 }
 
 
 li {
     font-family: 'montserrat', sans-serif;
     color: #320083;
-     font-size: 1em;
+    font-size: 1em;
     color: #320083;
     width: 70%;
 }
 
 .piclink {
-    color:#320083;
+    color: #320083;
     text-decoration: underline;
 }
 
 
-/*
 .foot {
     display: flex;
     justify-content: space-evenly;
-     position:fixed;
-   bottom:0;
-   width:65%;
-   height:60px;
-
-
-}
-*/
-
-
-.foot {
-    display: flex;
-    justify-content: space-evenly;
-    position:fixed;
-   left:0px;
-   bottom:0px;
-   height:60px;
-   width:100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
 
 }
-
-
-
 
 
 .frontpage {
-justify-content: space-around;
+    justify-content: space-around;
     text-align: center;
 
 }
 
 .responsive {
-  max-width:100%;
-    height:auto;
+    max-width: 100%;
+    height: auto;
+   margin-bottom: 35px;
+
 }
 
 
 .button {
-  border-radius: 4px;
-  background-color: #320083;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 15px;
-  padding: 20px;
-  width: 200px;
-  cursor: pointer;
-  margin: 5px;
-justify-content: center;
+    border-radius: 4px;
+    background-color: #320083;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+    justify-content: center;
     display: block;
 }
 
 .button1 {
-text-align: center;
+    text-align: center;
 }
 
 .button1 {
     display: flex;
- justify-content: center;
+    justify-content: center;
 }
 
 .button:hover {
-color: #320083;
-border-radius: 50px;
-transition: all 0.5s ease 0s;
+    color: #320083;
+    border-radius: 50px;
+    transition: all 0.5s ease 0s;
 }
 
 
 .button:hover {
-  background-color: #D99700;
-  color:#fff;
+    background-color: #D99700;
+    color: #fff;
 }
 
 a {
@@ -131,7 +109,7 @@ a:hover {
 }
 
 .profile-image {
-   float: left;
+    float: left;
 }
 
 header {
@@ -142,7 +120,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-/*    border-bottom: 12px solid #320083;*/
+/*        border-bottom: 5px solid #320083;*/
     z-index: 100;
     display: flex;
     flex-wrap: nowrap;
@@ -159,21 +137,21 @@ header {
     float: left;
     width: 200px;
     height: 50px;
-    background: url(../img/headerlogo.png) no-repeat center;
     display: block;
 
 }
 
 nav {
     float: right;
-    padding: 20px;
+    padding: 10px;
 }
 
 #menu-icon {
-/*    display: hidden;*/
+    /*    display: hidden;*/
     width: 40px;
     height: 40px;
     background: #320083 url(../img/menu-icon.png) center;
+
 }
 
 a:hover#menu-icon {
@@ -183,7 +161,7 @@ a:hover#menu-icon {
 }
 
 .wideMenu {
-display: flex;
+    display: flex;
     list-style: none;
     flex-wrap: nowrap;
 }
@@ -192,7 +170,6 @@ display: flex;
     display: inline-block;
     float: left;
     padding: 15px
-
 }
 
 .current {
@@ -206,17 +183,20 @@ display: flex;
 
 
 input[type="button"] {
-        margin-top: 2em;
-        background-color: white;
-        color: black;
-        font-size: 0.6em;
-        padding: 1em;
+    margin-top: 2em;
+    background-color: white;
+    color: black;
+    font-size: 0.6em;
+    padding: 1em;
 
 
-    }
+}
 
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
     font-family: 'montserrat', sans-serif;
     font-weight: bold;
 
@@ -239,7 +219,6 @@ h2 {
 }
 
 
-
 h3 {
 
     font-size: 0.9em;
@@ -249,9 +228,10 @@ h3 {
 
 }
 
-p, li {
+p,
+li {
     font-family: "montserrat", sans-serif;
-     font-size: 1em;
+    font-size: 1em;
     color: #320083;
     line-height: 1.15em;
     margin: 20px 0;
@@ -259,42 +239,40 @@ p, li {
 }
 
 
-.row{
+.row {
     display: flex;
-    margin:30px;
+    margin: 30px;
 }
 
 
 
-a
-{
-    color:#320083;
+a {
+    color: #320083;
 }
 
 
 
-a:hover
-{
+a:hover {
     color: #D99700;
 }
 
-a:active
-{
-    color:#52A6C5;
+a:active {
+    color: #52A6C5;
 }
 
 /*MEDIA QUERY*/
-@media only screen and (max-width : 770px) {
+@media only screen and (max-width : 750px) {
 
-    .row{
+    .row {
         display: block
     }
 
     .foot {
-/*        display: inline-block;*/
         display: none;
-        max-width: 100%;
-        height: auto;
+    }
+
+    #logo {
+        display: none;
     }
 
     #menu-icon {
@@ -337,14 +315,18 @@ a:active
 
     }
 
-.button {
-    display:flex;
-    justify-content: center;
-}
- }
-
-p, h1, h2, h3, h4, li {
-    max-width:  650px;
-
+    .button {
+        display: flex;
+        justify-content: center;
+    }
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+li {
+    max-width: 650px;
+
+}
